@@ -1,5 +1,13 @@
 # TouchSafe
 
+## Authors
+* Mathias Payer <mathias.payer@nebelwelt.net>
+* Pramod Jamkhedkar
+* Ruby Lee
+
+
+## Abstract
+
 Unvetted applications  are frequently used to process sensitive data. These applications may leak confidential,
 private, or sensitive data, after being given legitimate access to this data. The owner of the data would like
 to attach a policy to this data, and have this policy enforced throughout the data's lifetime. However, the
@@ -17,3 +25,8 @@ applications, and (ii) enforces highly-efficient post-access output control at f
 application), without the need to modify or trust either the application or the operating system. TouchSafe has
 low performance overhead for our implementation prototype, less than 0.5\% on SPEC CPU2006.
 
+
+## Prototype
+
+* Version 0.2, 2015-12-02
+* Version 0.1, 2014-07-28
